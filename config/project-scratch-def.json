@@ -1,0 +1,13 @@
+{
+  "orgName": "profile-example-for-conversion-testing",
+  "edition": "Developer",
+  "orgPreferences": {
+    "enabled": [
+      "S1DesktopEnabled",
+      "PathAssistantsEnabled"
+    ],
+    "disabled": [
+      "S1EncryptedStoragePref2"
+    ]
+  }
+}
