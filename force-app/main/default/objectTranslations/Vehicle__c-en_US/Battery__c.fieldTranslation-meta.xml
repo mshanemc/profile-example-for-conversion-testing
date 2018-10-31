@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Battery --></label>
+    <name>Battery__c</name>
+    <picklistValues>
+        <masterLabel>100 kWh</masterLabel>
+        <translation><!-- 100 kWh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>100P kWh</masterLabel>
+        <translation><!-- 100P kWh --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>75 kWh</masterLabel>
+        <translation><!-- 75 kWh --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

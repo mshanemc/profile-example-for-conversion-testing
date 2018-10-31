@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Competitor A</fullName>
+        <default>false</default>
+        <label>Competitor A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor B</fullName>
+        <default>false</default>
+        <label>Competitor B</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitor C</fullName>
+        <default>false</default>
+        <label>Competitor C</label>
+    </standardValue>
+</StandardValueSet>

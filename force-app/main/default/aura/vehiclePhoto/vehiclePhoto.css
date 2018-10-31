@@ -1,0 +1,64 @@
+.THIS #photoWrapper {
+    padding: 1rem 2rem 1rem 3rem;
+}
+.THIS #photo {
+    display: none;
+}
+.THIS #modal {
+    display: none;
+}
+.THIS #spider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    cursor: pointer;
+    z-index: 5000;
+}
+.THIS #photo2 {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+}
+.THIS #paintValue {
+    max-width: 100px;
+}
+.THIS .colors {
+    padding-bottom: 1rem;
+}
+.THIS .color {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(204, 204, 204);
+    margin: 0 auto;
+}
+.THIS .selected {
+    -moz-box-shadow: inset 0 0 0 4px #0090ff;
+    -webkit-box-shadow: inset 0 0 0 4px #0090ff;
+    box-shadow: inset 0 0 0 4px #0090ff;   
+}
+.THIS .red {
+    background-image: linear-gradient(#550000, #ff0000, #550000);
+}
+.THIS .blue {
+    background-image: linear-gradient(#000055, #0000ff, #000055);
+}
+.THIS .green {
+    background-image: linear-gradient(#005500, #00aa00, #005500);
+}
+.THIS .purple {
+    background-image: linear-gradient(#4b0082, #8a2be2, #4b0082);
+}
+.THIS .teal {
+    background-image: linear-gradient(#004d4d, #00b3b3, #004d4d);
+}
+.THIS .brown {
+    background-image: linear-gradient(#5d2a00, #e0d3a7, #5d2a00);
+}
+.THIS .codeWrapper {
+    clear: both;
+}
+.THIS .modalContent {
+    margin: 0 auto;
+}

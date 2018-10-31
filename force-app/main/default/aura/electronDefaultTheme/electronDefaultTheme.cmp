@@ -1,0 +1,11 @@
+<aura:component implements="forceCommunity:themeLayout,force:hasRecordId" access="global" description="Electron Home Layout">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <div>
+        <c:webNav />
+        <div class="fullPage">
+            {!v.body}
+            <c:webFooter />
+        </div>
+    </div>
+</aura:component>

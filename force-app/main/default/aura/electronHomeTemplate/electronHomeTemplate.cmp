@@ -1,0 +1,6 @@
+<aura:component implements="forceCommunity:layout" access="global" description="Electron Home Template">
+    <aura:attribute name="column1" type="Aura.Component[]" required="false"></aura:attribute>
+    <div>
+        {!v.column1}
+    </div>
+</aura:component>

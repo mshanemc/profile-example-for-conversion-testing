@@ -1,0 +1,73 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="photoUrl" type="String" />
+    <aura:attribute name="record" type="Object" description="The record object to be displayed"/>
+    <aura:attribute name="simpleRecord" type="Object" description="A simplified view record object to be displayed"/>
+    <aura:attribute name="recordError" type="String" description="An error message bound to force:recordData"/>
+    <aura:attribute name="color" type="String" access="global" />
+    
+    <force:recordData aura:id="recordEdit"
+                      layoutType="FULL"
+                      recordId="{!v.recordId}"
+                      targetError="{!v.recordError}"
+                      targetRecord="{!v.record}"
+                      targetFields="{!v.simpleRecord}"
+                      recordUpdated="{!c.recordLoaded}"
+                      mode="EDIT" />
+
+    <div>
+        <lightning:card title="Personalize" iconName="standard:photo">
+            <aura:set attribute="actions">
+                <lightning:button label="Change Color" onclick="{!c.changeColorClick}" />
+            </aura:set>
+            <div aura:id="photoWrapper" id="photoWrapper">
+                <img aura:id="photo" id="photo" src="{!v.photoUrl}" onload="{!c.photoLoaded}" style="{! 'filter:hue-rotate(' + v.simpleRecord.Paint__c + 'deg)'}" />
+            </div>
+        </lightning:card>
+        
+        <div aura:id="modal" id="modal">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close">
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Personalize Color</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                        <div class="modalContent">
+                            <div aura:id="photo2" id="photo2" class="photo slds-m-right_medium">
+                                <img src="{!v.photoUrl}" style="{! 'filter:hue-rotate(' + v.color + 'deg)'}" />
+                            </div>
+                            <div class="colors slds-grid">
+                                <div class="slds-col slds-size_1-of-6">
+                                    <div data-value="0" class="{!v.color == '0' ? 'color red selected' : 'color red'}" onclick="{!c.colorClick}"></div>
+                                </div>
+                                <div class="slds-col slds-size_1-of-6">
+                                    <div data-value="230" class="{!v.color == '230' ? 'color blue selected' : 'color blue'}" onclick="{!c.colorClick}"></div>
+                                </div>
+                                <div class="slds-col slds-size_1-of-6">
+                                    <div data-value="130" class="{!v.color == '130' ? 'color green selected' : 'color green'}" onclick="{!c.colorClick}"></div>
+                                </div>
+                                <div class="slds-col slds-size_1-of-6">
+                                    <div data-value="1000" class="{!v.color == '1000' ? 'color purple selected' : 'color purple'}" onclick="{!c.colorClick}"></div>
+                                </div>
+                                <div class="slds-col slds-size_1-of-6">
+                                    <div data-value="4150" class="{!v.color == '4150' ? 'color teal selected' : 'color teal'}" onclick="{!c.colorClick}"></div>
+                                </div>
+                                <div class="slds-col slds-size_1-of-6">
+                                    <div data-value="55" class="{!v.color == '55' ? 'color brown selected' : 'color brown'}" onclick="{!c.colorClick}"></div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick="{!c.cancel}">Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick="{!c.saveRecord}">Save</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </div>  
+</aura:component>

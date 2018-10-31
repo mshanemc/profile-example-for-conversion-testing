@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Index xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Log_Index</fullName>
+    <fields>
+        <name>CustomerID__c</name>
+        <sortDirection>DESC</sortDirection>
+    </fields>
+    <fields>
+        <name>VehicleID__c</name>
+        <sortDirection>DESC</sortDirection>
+    </fields>
+    <fields>
+        <name>CreatedDate__c</name>
+        <sortDirection>DESC</sortDirection>
+    </fields>
+    <label>Production Log Index</label>
+</Index>

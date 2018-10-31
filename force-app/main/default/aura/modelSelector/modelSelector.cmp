@@ -1,0 +1,36 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,lightning:availableForFlowScreens" access="global" >
+    <ltng:require scripts="{!$Resource.siema_min_js}" afterScriptsLoaded="{!c.afterScriptsLoaded}" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="model" type="String" default="Flint" access="global" />
+    <aura:attribute name="paint" type="String" default="0" access="global" />
+    <div>
+        <h1 class="slds-text-heading_large">Select Model &amp; Color</h1>
+        <div class="siema">
+            <div class="slide">
+                <img style="{! 'filter: hue-rotate(' + v.paint + 'deg)' }" src="{!$Resource.flint}" />
+                <div class="slds-text-heading_medium">Flint</div>
+            </div>
+            <div class="slide">
+                <img style="{! 'filter: hue-rotate(' + v.paint + 'deg)' }" src="{!$Resource.flare}" />
+                <div class="slds-text-heading_medium">Flare</div>
+            </div>
+            <div class="slide">
+                <img style="{! 'filter: hue-rotate(' + v.paint + 'deg)' }" src="{!$Resource.flash}" />
+                <div class="slds-text-heading_medium">Flash</div>
+            </div>
+        </div>
+        
+        <div class="slds-grid slds-gutters">
+            <div id="0" class="slds-col slds-box red" onclick="{!c.selectColor}"></div>
+            <div id="230" class="slds-col slds-box blue" onclick="{!c.selectColor}"></div>
+            <div id="130" class="slds-col slds-box green" onclick="{!c.selectColor}"></div>
+        </div>
+
+        <div class="slds-grid slds-gutters">
+            <div id="1000" class="slds-col slds-box purple" onclick="{!c.selectColor}"></div>
+            <div id="4150" class="slds-col slds-box teal" onclick="{!c.selectColor}"></div>
+            <div id="55" class="slds-col slds-box brown" onclick="{!c.selectColor}"></div>
+        </div>
+        
+    </div>
+</aura:component>

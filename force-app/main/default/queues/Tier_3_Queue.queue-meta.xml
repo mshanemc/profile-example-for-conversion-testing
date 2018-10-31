@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>tier3@example.com</email>
+    <name>Tier 3 Queue</name>
+    <queueMembers>
+        <users>
+            <user>bill.hzx4h3ctu4la.k94fc868fngn@electron.cdo</user>
+            <user>cindy.foqthdcitv9k.ecgupwm0mazh@electron.cdo</user>
+            <user>electron_owners_community@isvsi-14ddd2ecd93-1633bb3c0fc.force.com</user>
+            <user>electron_partner_community@isvsi-14ddd2ecd93-1633bb3c0fc.force.com</user>
+            <user>elliot.6eioscyn4zd1.iypbdenemfxe@electron.cdo</user>
+            <user>ely.n5hhq0lbfay4.jghzfaurc96q@electron.cdo</user>
+            <user>gsumner@electron.demo</user>
+            <user>quinton.ogzpogqekczi.upifcat9deld@electron.cdo</user>
+            <user>sue.9afdirlighit.5zxdesxvloml@electron.cdo</user>
+            <user>tim.eyq67hwdf6du.aznub7pcsvwe@electron.cdo</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

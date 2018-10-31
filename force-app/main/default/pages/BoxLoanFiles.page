@@ -1,0 +1,5 @@
+<apex:page standardController="Loan__c" extensions="box.DisplayWidget" showheader="false" sidebar="false" action="{!GetLoginToken}">
+    <apex:stylesheet value="{!URLFOR($Resource.box__BoxEmbed, 'BoxEmbed/style.css')}"/>
+    <apex:iframe src="/apex/box__BOXSection?id={!Loan__c.Id}&param=BoxLoanFiles" rendered="{!DisplayBoxSection}"/>
+    <apex:iframe src="{!folderShareLink}" rendered="{!DisplayBoxWidget}" width="100%" height="100%" frameborder="0" scrolling="NO"/>
+</apex:page>

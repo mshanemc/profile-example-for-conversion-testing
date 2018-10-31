@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Vehicle</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Vehicles</value>
+    </caseValues>
+    <layouts>
+        <layout>Vehicle Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Manufacturing --></label>
+            <section>Manufacturing</section>
+        </sections>
+        <sections>
+            <label><!-- Payment --></label>
+            <section>Payment</section>
+        </sections>
+        <sections>
+            <label><!-- Personalization --></label>
+            <section>Personalization</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Order --></label>
+        <name>Order</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

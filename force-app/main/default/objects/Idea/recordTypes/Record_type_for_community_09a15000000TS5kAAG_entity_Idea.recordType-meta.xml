@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Record_type_for_community_09a15000000TS5kAAG_entity_Idea</fullName>
+    <active>true</active>
+    <description>Record type used to associate Idea with a specific zone</description>
+    <label>Customer Ideas: Idea Record Type</label>
+</RecordType>

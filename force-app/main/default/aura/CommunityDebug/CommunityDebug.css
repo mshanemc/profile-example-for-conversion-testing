@@ -1,0 +1,42 @@
+.THIS {
+    position:absolute;
+    height: 100%;
+    width: 100%;    
+    background-image: linear-gradient(#999, #fff);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.THIS .siteforceContentArea {
+	height: 100%;    
+}
+
+.THIS .contentRegion {
+    min-height: 88%;
+}
+
+.THIS .contentRegion > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.THIS .contentRegion h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300;
+    padding-bottom: 1rem;    
+    font-family: "Open Sans", sans-serif;    
+}
+
+.THIS .contentRegion p {
+    
+}
+.THIS .contentRegion p span {
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Wheels --></label>
+    <name>Wheels__c</name>
+    <picklistValues>
+        <masterLabel>19&quot; Onyx Black Spinners</masterLabel>
+        <translation><!-- 19&quot; Onyx Black Spinners --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>19&quot; Silver Wheels</masterLabel>
+        <translation><!-- 19&quot; Silver Wheels --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>19&quot; Sonic Carbon Wheels</masterLabel>
+        <translation><!-- 19&quot; Sonic Carbon Wheels --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

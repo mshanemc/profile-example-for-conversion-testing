@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Standard Auto-Response Rule</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Email,Web,Chatter Answers,Twitter,Facebook</value>
+            </criteriaItems>
+            <senderEmail>support@pdo.demo</senderEmail>
+            <senderName>Customer Service</senderName>
+            <template>Customer_Service/Case_Created_Auto_Response</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

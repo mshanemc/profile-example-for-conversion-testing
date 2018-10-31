@@ -1,0 +1,6 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Electron Home Layout">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <div>
+        {!v.body}
+    </div>
+</aura:component>

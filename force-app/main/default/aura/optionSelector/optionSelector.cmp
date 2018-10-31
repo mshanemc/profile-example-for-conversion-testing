@@ -1,0 +1,36 @@
+<aura:component implements="force:hasRecordId,lightning:availableForFlowScreens" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="vehicle" type="Vehicle__c" access="global" />
+    <div>
+        <h1 class="slds-text-heading_large">Select Battery</h1>
+        <div class="slds-grid slds-gutters slds-border_bottom">
+            <input type="radio" name="battery" id="75D" value="75 kWh" onclick="{! c.onBatterySelect }" />
+            <label for="75D" class="slds-col slds-size_1-of-3 slds-box">
+                75 kWH
+            </label>
+            <input type="radio" name="battery" id="100D" value="100 kWh" />
+            <label for="100D" class="slds-col slds-size_1-of-3 slds-box">
+                100 kWH                
+            </label>
+            <input type="radio" name="battery" id="100P" value="100P kWh" />
+            <label for="100P" class="slds-col slds-size_1-of-3 slds-box">
+                100P kWH                
+            </label>
+        </div>
+        <h1 class="slds-text-heading_large">Select Options</h1>
+        <div class="slds-grid slds-gutters">
+            <input type="checkbox" id="self_driving" value="true" />
+            <label for="self_driving" class="slds-col slds-size_1-of-3 slds-box">
+                Self Driving Capability
+            </label>
+            <input type="checkbox" id="autopilot" value="true" />
+            <label for="autopilot" class="slds-col slds-size_1-of-3 slds-box">
+                Enhanced Autopilot
+            </label>
+            <input type="checkbox" id="sunroof" value="true" />
+            <label for="sunroof" class="slds-col slds-size_1-of-3 slds-box">
+                Sunroof
+            </label>
+        </div>        
+    </div>        
+</aura:component>

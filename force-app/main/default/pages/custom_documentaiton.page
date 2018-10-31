@@ -1,0 +1,83 @@
+<apex:page sidebar="false" showHeader="true" standardStylesheets="false">
+    <apex:composition template="SDO_Bootstrap_Template"/>
+    <style type="text/css">
+       @import url("/apex/custom_wizardcss");
+    </style>
+    
+    <body>
+    <h2>PDO Org Setup</h2>
+    <br /><br /><br /><br /> 
+        
+        
+    <h3>Getting Started</h3>
+    <br /><br />  
+        <p>The purpose of this document is to introduce you to the PDO ORG, its tools and give you an easy process to set up, what looks like, a very tailored demonstrations. The PDO ORG is a wonder and powerful tool and this guide does not pretend to cover everything available to you. Instead we will cover an org customization in a few steps in no particular order. <br /><br />
+    Before you customize you should know what you&rsquo;re planning to show. Understanding your flow/story will let you know how many of these steps you&rsquo;ll have to do. To get started, log into your  ORG and go to the &quot;Start Here&quot; App.  </p>
+ 
+  <br />
+  
+      <h3>Reset Dates</h3><br /><br />
+      <p>Probably the easiest and most important tool for believable data in the SDO Toolbox is the &ldquo;Perfect Date Wizard&rdquo;. <br />
+      Use this to make date data on the following objects ready for your next demo. The perfect date wizard centers the system records around today&rsquo;s date. This ensures Closed Opportunities have closed dates in the past, and Open opportunities have Closed Dates in the future.</p>
+
+        
+  <br />
+
+  
+
+  <h3>Replace Logo(s)</h3>
+        <br /><br /> 
+  <p>
+    Branding the org to match your prospect is a great way to help them envision using the tool in their own business. The &ldquo;Replace Company Logo&rdquo; does this for you. 
+      Get a copy of the customer logo - most of the time you can Google Image search for &ldquo;&lt;CompanyName&gt; logo&rdquo; or you can grab it off their website if needed. Open the file in an image editor (Paint is installed with Windows; Paint.NET is available online; etc., etc.) and resize to a maximum width of 200px and max height 90px. <br />
+  </p>
+
+        
+         <br />
+
+    <h3>Rename the Demo Company</h3>
+    <br /><br />
+    <p> 
+        The name associated with the demo org appears in a number of places – Web2Lead and Web2Case forms; Quote template; etc. We can customize the name of our Company with the &ldquo;Org Customizer&rdquo;.
+    </p>
+    <br />
+    
+    <h3>Accounts, Contacts, Cases, Users, Etc</h3>
+    <br /><br />
+    <p> 
+        The &ldquo;Org Customizer&rdquo; tool also gives you easy access to other items. If you know your prospects key accounts or targets, set them here. Update one of the users to the CEO&rsquo;s name. Add some humour by adding some &ldquo;Easter Eggs&rdquo; such as a character&rsquo;s name or reference some inside joke (great for rapport building). 
+    </p>
+    <br />
+
+    <h3>Tailor the Products</h3>
+    <br /><br />
+    <p> 
+    Another great way to make your prospect feel truly at home than to see their own products on the quotes or detailed on the account page as owned assets. From the same &ldquo;Org Customizer&rdquo; we have access to easily modify the Products and Assets. 
+    </p>
+    <br /> 
+
+    <h3>Configure Tabs</h3>
+    <br /><br />
+    <p> 
+    As we all know, salesforce.com has a lot to offer. Unfortunately, showing too much of in a demonstration can distract and confuse the prospect. The first area this is evident is the default tabs.
+        Configure your tabs to only show the items you&rsquo;ll be covering in your demonstration and in the order you&rsquo;ll cover them. This makes for an easy to follow flow and a consistency that is easy for people who are new to salesforce.com. <br />
+
+    </p>
+    <br />
+
+    <h3>Update Homepage and other Dashboards</h3>
+        <br /><br />
+      <p>You should always know the three reasons a prospect will buy and your demo should focus around these things. In turn your homepage dashboards should three show key related metrics. <br />
+       <br />
+        Start with the right base dashboard – if your decision maker is VP Sales then start with the &ldquo;Sales Executive Dashboard&rdquo;. Create new components and/or move the top three items to the top. Sometimes all you will need to do is change a title. E.g. &ldquo;Closed Business QTD&rdquo; quickly becomes &ldquo;New Logo Revenue&rdquo;. <br />
+      <br />
+        While you&rsquo;re here, make note of some components that will be easily modified as part of your demo. For example, the sales pipeline dash could be swapped from a Funnel to a Horizontal Bar Chart. <br />
+      </p>    
+    
+    </body>
+        <br />
+        <br />
+        <br />
+        <a href="/apex/custom_StartPage" class="backzz">Return</a>  
+
+</apex:page>

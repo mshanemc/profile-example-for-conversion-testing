@@ -1,0 +1,4 @@
+<design:component label="Model Selector">
+	<design:attribute name="model" label="Model" />
+    <design:attribute name="paint" label="Paint" />
+</design:component>

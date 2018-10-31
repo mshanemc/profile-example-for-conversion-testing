@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Tactic__c</fullName>
+    <externalId>false</externalId>
+    <label>Campaign Tactic</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Print Advertisement</fullName>
+                <default>false</default>
+                <label>Print Advertisement</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Employment Seminars</fullName>
+                <default>false</default>
+                <label>Employment Seminars</label>
+            </value>
+            <value>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+                <label>Webinars</label>
+            </value>
+            <value>
+                <fullName>Public Relations</fullName>
+                <default>false</default>
+                <label>Public Relations</label>
+            </value>
+            <value>
+                <fullName>Partners</fullName>
+                <default>false</default>
+                <label>Partners</label>
+            </value>
+            <value>
+                <fullName>Referral Program</fullName>
+                <default>false</default>
+                <label>Referral Program</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Lunches</fullName>
+                <default>false</default>
+                <label>Lunches</label>
+            </value>
+            <value>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+                <label>Direct Mail</label>
+            </value>
+            <value>
+                <fullName>Sales Call Down</fullName>
+                <default>false</default>
+                <label>Sales Call Down</label>
+            </value>
+            <value>
+                <fullName>Online Banners/Ads</fullName>
+                <default>false</default>
+                <label>Online Banners/Ads</label>
+            </value>
+            <value>
+                <fullName>Internal Website</fullName>
+                <default>false</default>
+                <label>Internal Website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

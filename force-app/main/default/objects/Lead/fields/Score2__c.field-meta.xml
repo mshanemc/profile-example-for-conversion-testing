@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Score2__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Decision_Timeframe__c  ,&quot;Immediately&quot;, 5, &quot;1-3 Months&quot;,4,&quot;3-6 Months&quot;, 3, &quot;6-12 Months&quot;, 2, &quot;Next Year&quot;, 1, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Decision Timeframe Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

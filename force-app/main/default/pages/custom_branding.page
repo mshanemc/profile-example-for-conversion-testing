@@ -1,0 +1,36 @@
+<apex:page sidebar="false" showHeader="true" standardStylesheets="false">
+	<apex:composition template="SDO_Bootstrap_Template"/>
+
+    <style type="text/css">
+       @import url("/apex/custom_wizardcss");
+    </style>
+    
+ 	<h1>Step 3 of 3: Branding Wizard</h1>
+    <br />
+    <br />
+        <apex:form >
+
+        <div class="accordion" id="accordion2">
+          <div class="accordion-group">
+            <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                <font class="hi">Step 1: Replace Company Logo.</font>
+              </a>
+            </div>
+            <div id="collapseOne" class="accordion-body collapse in">
+              <div class="accordion-inner">
+                  <apex:iframe src="/p/doc/DocumentUploadUi?id=015f4000001Tkzu&pid={!$User.Id}&retURL=/home/home.jsp&isdtp=vw" />
+              </div>
+            </div>
+          </div>
+        
+            
+        </div>
+    </apex:form>
+    <br />
+    <br />
+    <br />
+        <a href="/apex/StartPage" class="backzz">Return</a>  
+
+    <a href="/apex/DE_brandingwizard" class="mybutton">Continue</a>  
+</apex:page>

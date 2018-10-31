@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrderSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableNegativeQuantity>true</enableNegativeQuantity>
+    <enableOrders>true</enableOrders>
+    <enableReductionOrders>true</enableReductionOrders>
+    <enableZeroQuantity>false</enableZeroQuantity>
+</OrderSettings>

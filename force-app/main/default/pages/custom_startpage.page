@@ -1,0 +1,32 @@
+<apex:page sidebar="false" showHeader="true" standardStylesheets="false">
+   
+    <style type="text/css">
+       @import url("/apex/custom_wizardcss");
+    </style>
+    
+   <div class="container">
+       <center><h1>Partner Demo Org (PDO)</h1></center>
+       
+        <center><p class="hi">Start here for all your demo needs.</p></center>
+
+      <table class = "mytable">
+          <tr>
+              <td>
+                <!-- <img class="marketing-img" src="{!$resource.documentation}" /><br /><br /> -->
+                  <a href="/apex/custom_documentaiton"><h2>1: Review Documentation</h2></a>
+                  <p>All of the documenation you'll need to get started.</p>
+            </td>
+              <td>
+                 <!-- <img class="marketing-img" src="{!$resource.wizard}" /><br /><br /> -->
+                <a href="/apex/custom_data"><h2>2: Data And Branding Wizard</h2></a>
+                <p>Change company logo, manipulate key demo records, make dates perfect, and localize your data for your custom demo.</p>
+              </td>
+              
+          </tr>
+       </table>
+
+       <br />
+       <br />
+       
+    </div>
+</apex:page>

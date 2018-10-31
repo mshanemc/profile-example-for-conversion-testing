@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Change Logo</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/p/doc/DocumentUploadUi?id=015f4000001Tkzu&amp;pid=00lf4000001Q2Dh</url>
+</CustomPageWebLink>
